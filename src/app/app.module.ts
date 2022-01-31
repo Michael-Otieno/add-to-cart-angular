@@ -11,6 +11,7 @@ import { FilterPipe } from './shared/filter.pipe';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { SliderComponent } from './component/slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CartComponent,
     ProductsComponent,
     FilterPipe,
-    SliderComponent
+    SliderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
