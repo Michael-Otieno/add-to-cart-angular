@@ -6,8 +6,11 @@
     word-wrap: break-word;
     background: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-radius: .25rem;
+    border: none;
+    outline: none;
+
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    /* border-radius: .25rem; */
 }
 .item img{
     width: 64px;
@@ -33,4 +36,8 @@
 .card img:hover{
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
+}
+.links{
+    display: flex;
+    justify-content: center;
 }
